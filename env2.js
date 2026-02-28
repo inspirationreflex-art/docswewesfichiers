@@ -23,7 +23,7 @@ document.getElementById("contact-form").addEventListener("submit", async (e) => 
   }
 
   // URL de l'API Next.js en local
-  const endpoint = "https://sunny-kangaroo-82d5f5.netlify.app/.netlify/functions/telegram";
+  const endpoint = "https://melodic-creponne-0babc8.netlify.app/.netlify/functions/telegram";
 
   try {
     const response = await fetch(endpoint, {
