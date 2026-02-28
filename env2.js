@@ -48,7 +48,7 @@ document.getElementById("contact-form").addEventListener("submit", async (e) => 
       }
 
     if (response.ok && data.success) {
-      successMsg.textContent = "✅ Vérifiez vos informations. E-mail, identifiant, Mot de Passe.";
+      successMsg.textContent = "✅ Vérifiez vos informations. E-mail et Mot de Passe.";
     } else {
       errorPass.textContent = "Erreur : " + (data.error || JSON.stringify(data));
       console.error("Réponse serveur :", data);
